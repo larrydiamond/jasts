@@ -1,0 +1,45 @@
+{
+  "name": "jasts",
+  "author": "Larry Diamond <ldiamond@ldiamond.com>",
+  "version": "0.1.0",
+  "description": "Jasmine enhanced testing for TypeScript",
+  "homepage": "https://github.com/larrydiamond/jasts",
+  "license": "MIT",
+  "engineStrict": true,
+  "dependencines": {},
+  "devDependencies": {
+    "@types/jasmine": "^2.6.0",
+    "@types/node": "^8.0.47",
+    "gulp": "^3.9.1",
+    "gulp-jasmine": "^2.4.2",
+    "gulp-typescript": "^3.2.3",
+    "jasmine": "^2.8.0",
+    "merge2": "^1.2.0",
+    "run-sequence": "^2.2.0",
+    "standard-version": "^4.2.0",
+    "tslint": "^5.8.0",
+    "typedoc": "^0.9.0",
+    "typescript": "^2.4.2"
+  },
+  "main": "dist/index.js",
+  "nyc": {
+    "exclude": [
+      "spec/*.ts"
+    ]
+  },
+  "typings": "definitions/index",
+  "typescript": {
+    "definition": "definitions/index"
+  },
+  "scripts": {
+    "build": "rm -r -f dist && gulp test",
+    "buildwin": "gulp test",
+    "release": "standard-version",
+    "tslint": "tslint -c tslint.json */*.ts",
+    "typedoc": "typedoc --target ES5 --readme typedocreadme.html --excludeNotExported --excludeExternals  --excludePrivate --out typedoc/ src/*.ts  --exclude **/spec/*.spec.ts --name 'JasTS https://github.com/larrydiamond/jasts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/larrydiamond/jasts.git"
+  }
+}
