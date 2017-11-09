@@ -1,7 +1,7 @@
 {
   "name": "jasts",
   "author": "Larry Diamond <ldiamond@ldiamond.com>",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Jasmine enhanced testing for TypeScript",
   "homepage": "https://github.com/larrydiamond/jasts",
   "license": "MIT",
