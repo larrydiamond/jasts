@@ -7,33 +7,33 @@
 * found in the LICENSE file at https://github.com/larrydiamond/jasts/LICENSE
 */
 Object.defineProperty(exports, "__esModule", { value: true });
-var test = /** @class */ (function () {
-    function test() {
+var Test = /** @class */ (function () {
+    function Test() {
     }
     // tslint:disable-next-line:no-any
-    test.equals = function (failMessage, val, expected) {
+    Test.equals = function (failMessage, val, expected) {
         if (val !== expected) {
             fail(failMessage + " - value was " + val + " expected " + expected);
         }
     };
     // tslint:disable-next-line:no-any
-    test.notNullOrUndefined = function (failMessage, val) {
+    Test.notNullOrUndefined = function (failMessage, val) {
         if ((val === null) || (val === undefined)) {
             fail(failMessage + " - expected not null or undefined value was " + val);
         }
     };
     // tslint:disable-next-line:no-any
-    test.notNull = function (failMessage, val) {
+    Test.notNull = function (failMessage, val) {
         if (val === null) {
             fail(failMessage + " - expected not null value was " + val);
         }
     };
     // tslint:disable-next-line:no-any
-    test.notUndefined = function (failMessage, val) {
+    Test.notUndefined = function (failMessage, val) {
         if (val === undefined) {
             fail(failMessage + " - expected not undefined value was " + val);
         }
     };
-    return test;
+    return Test;
 }());
-exports.test = test;
+exports.Test = Test;

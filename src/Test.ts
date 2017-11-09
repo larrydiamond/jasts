@@ -6,7 +6,7 @@
 * found in the LICENSE file at https://github.com/larrydiamond/jasts/LICENSE
 */
 
-export class test {
+export class Test {
   // tslint:disable-next-line:no-any
   public static equals (failMessage:string, val:any, expected:any) : void {
     if (val !== expected) {
