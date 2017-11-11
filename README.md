@@ -43,29 +43,28 @@ Returns the far better error message:  **Failed: empty cart should cost nothing 
 
 Because you can provide text with each failure message, knowing exactly which statement failed with the chance for the developer to provide intelligent comments makes for quicker and easier debugging.
 
-# What classes and methods does jasts provide?
+# What classes does Jasts provide?
 
 <table class="methods" border="0" cellpadding="3" cellspacing="0" summary="Class Summary table, listing classes, and an explanation">
-  <caption><span>Class Summary</span><span class="tabEnd">&nbsp;</span></caption>
   <tr>
-    <th class="colFirst" scope="col">Class</th>
-    <th class="colLast" scope="col">Method</th>
+    <th class="colFirst" scope="col">Test</th>
+    <th class="colLast" scope="col">&nbsp;</th>
   </tr>
   <tbody>
     <tr class="altColor">
-      <td class="colFirst"><b>Test</b></td>
+      <td class="colFirst">First</td>
       <td class="colLast">&nbsp;</td>
     </tr>
     <tr class="altColor">
-      <td class="colFirst"><b>TestBoolean</b></td>
+      <td class="colFirst">Second</td>
       <td class="colLast">&nbsp;</td>
     </tr>
     <tr class="altColor">
-      <td class="colFirst"><b>TestNumber</b></td>
+      <td class="colFirst">Third</td>
       <td class="colLast">&nbsp;</td>
     </tr>
     <tr class="altColor">
-      <td class="colFirst"><b>TestString</b></td>
+      <td class="colFirst">Fourth</td>
       <td class="colLast">&nbsp;</td>
     </tr>
   </tbody>
