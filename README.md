@@ -41,4 +41,5 @@ it ("Test emptying the shopping cart", function () {
 
 Returns the far better error message:  **Failed: empty cart should cost nothing - value was undefined expected 0**
 
+Because you can provide text with each failure message, knowing exactly which statement failed with the chance for the developer to provide intelligent comments makes for quicker and easier debugging.
 
