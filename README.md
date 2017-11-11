@@ -39,3 +39,6 @@ it ("Test emptying the shopping cart", function () {
 });
 ```
 
+Returns the far better error message:  **Failed: empty cart should cost nothing - value was undefined expected 0**
+
+
