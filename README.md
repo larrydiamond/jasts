@@ -27,7 +27,7 @@ Do I have a bug with the first call or the second call?
 
 Jasmine is written in JavaScript, not TypeScript.   And so Jasmine does some interesting manipulation to achieve some type safety on its calls.  We can do better in TypeScript since we can use the TypeScript compiler better to find errors in our tests at compile time.
 
-# Solution: jasts
+# Solution: npm i jasts --save-dev
 ```javascript
 it ("Test emptying the shopping cart", function () {
   const cart:ShoppingCart = new ShoppingCart();
