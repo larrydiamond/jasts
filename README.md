@@ -6,6 +6,7 @@ Jasmine has two areas where it can help developers better, and this project fill
 
 # Gap 1: Error messages when a test fails.
 
+```javascript
 it ("Test emptying the shopping cart", function () {
   const cart:ShoppingCart = new ShoppingCart();
   cart.put (product1);
@@ -14,6 +15,7 @@ it ("Test emptying the shopping cart", function () {
   expect (cart.numberOfItemsInCart ()).toEqual(0);
   expect (cart.calculatePrice ()).toEqual(0);
 });
+```
 
 And then you get back the helpful error message:
 Expected undefined to equal 0.
