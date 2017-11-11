@@ -34,8 +34,8 @@ it ("Test emptying the shopping cart", function () {
   cart.put (product1);
   cart.put (product2);
   cart.clear ();
-  expect (cart.numberOfItemsInCart ()).toEqual(0);
-  expect (cart.calculatePrice ()).toEqual(0);}
-);
+  TestNumber ("no items in cart", cart.numberOfItemsInCart (), 0);
+  TestNumber ("empty cart should cost nothing", cart.calculatePrice (), 0);
+});
 ```
 
