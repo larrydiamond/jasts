@@ -52,20 +52,95 @@ Because you can provide text with each failure message, knowing exactly which st
   </tr>
   <tbody>
     <tr class="altColor">
-      <td class="colFirst">First</td>
-      <td class="colLast">&nbsp;</td>
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">First</td>
     </tr>
     <tr class="altColor">
-      <td class="colFirst">Second</td>
-      <td class="colLast">&nbsp;</td>
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">Second</td>
     </tr>
     <tr class="altColor">
-      <td class="colFirst">Third</td>
-      <td class="colLast">&nbsp;</td>
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">Third</td>
     </tr>
     <tr class="altColor">
-      <td class="colFirst">Fourth</td>
-      <td class="colLast">&nbsp;</td>
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">Fourth</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="methods" border="0" cellpadding="3" cellspacing="0" summary="Class Summary table, listing classes, and an explanation">
+  <tr>
+    <th class="colFirst" scope="col">TestBoolean</th>
+    <th class="colLast" scope="col">&nbsp;</th>
+  </tr>
+  <tbody>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">First</td>
+    </tr>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">Second</td>
+    </tr>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">Third</td>
+    </tr>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">Fourth</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="methods" border="0" cellpadding="3" cellspacing="0" summary="Class Summary table, listing classes, and an explanation">
+  <tr>
+    <th class="colFirst" scope="col">TestNumber</th>
+    <th class="colLast" scope="col">&nbsp;</th>
+  </tr>
+  <tbody>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">First</td>
+    </tr>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">Second</td>
+    </tr>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">Third</td>
+    </tr>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">Fourth</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="methods" border="0" cellpadding="3" cellspacing="0" summary="Class Summary table, listing classes, and an explanation">
+  <tr>
+    <th class="colFirst" scope="col">TestString</th>
+    <th class="colLast" scope="col">&nbsp;</th>
+  </tr>
+  <tbody>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">First</td>
+    </tr>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">Second</td>
+    </tr>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">Third</td>
+    </tr>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">Fourth</td>
     </tr>
   </tbody>
 </table>
