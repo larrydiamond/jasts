@@ -18,7 +18,7 @@ it ("Test emptying the shopping cart", function () {
 ```
 
 And then you get back the helpful error message:
-Expected undefined to equal 0.
+**Expected undefined to equal 0.**
 
 This error message doesn't tell you which line brought back the wrong result.   
 Do I have a bug with the first call or the second call?
