@@ -43,3 +43,4 @@ Returns the far better error message:  **Failed: empty cart should cost nothing 
 
 Because you can provide text with each failure message, knowing exactly which statement failed with the chance for the developer to provide intelligent comments makes for quicker and easier debugging.
 
+# What classes and methods does jasts provide?
