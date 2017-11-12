@@ -27,4 +27,26 @@ export class TestNumber {
       fail (failMessage + " - expected not null value was " + val);
     }
   }
+  public static greaterThan (failMessage:string, val:number, minimum:number) : void {
+    if (val === undefined) {
+      fail (failMessage + " - expected greater than " + minimum + " value was undefined");
+    }
+    if (val === null) {
+      fail (failMessage + " - expected greater than " + minimum + " value was null");
+    }
+    if (val <= minimum) {
+      fail (failMessage + " - expected greater than " + minimum + " value was " + val);
+    }
+  }
+  public static lessThan (failMessage:string, val:number, maximum:number) : void {
+    if (val === undefined) {
+      fail (failMessage + " - expected less than " + maximum + " value was undefined");
+    }
+    if (val === null) {
+      fail (failMessage + " - expected less than " + maximum + " value was null");
+    }
+    if (val >= maximum) {
+      fail (failMessage + " - expected less than " + maximum + " value was " + val);
+    }
+  }
 }
