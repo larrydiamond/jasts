@@ -8,4 +8,6 @@
 export declare class TestNumber {
     static equals(failMessage: string, val: number, expected: number): void;
     static notNullOrUndefined(failMessage: string, val: number): void;
+    static notUndefined(failMessage: string, val: number): void;
+    static notNull(failMessage: string, val: number): void;
 }

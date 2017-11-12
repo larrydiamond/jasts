@@ -30,6 +30,16 @@ var TestBoolean = /** @class */ (function () {
             fail(failMessage + " - expected not null or undefined value was " + val);
         }
     };
+    TestBoolean.notNull = function (failMessage, val) {
+        if (val === null) {
+            fail(failMessage + " - expected not null value was " + val);
+        }
+    };
+    TestBoolean.notUndefined = function (failMessage, val) {
+        if (val === undefined) {
+            fail(failMessage + " - expected not undefined value was " + val);
+        }
+    };
     return TestBoolean;
 }());
 exports.TestBoolean = TestBoolean;

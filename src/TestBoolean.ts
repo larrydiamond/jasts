@@ -27,4 +27,14 @@ export class TestBoolean {
       fail (failMessage + " - expected not null or undefined value was " + val);
     }
   }
+  public static notNull (failMessage:string, val:boolean) : void {
+    if (val === null) {
+      fail (failMessage + " - expected not null value was " + val);
+    }
+  }
+  public static notUndefined (failMessage:string, val:boolean) : void {
+    if (val === undefined) {
+      fail (failMessage + " - expected not undefined value was " + val);
+    }
+  }
 }

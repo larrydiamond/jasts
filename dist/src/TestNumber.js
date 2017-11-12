@@ -20,6 +20,16 @@ var TestNumber = /** @class */ (function () {
             fail(failMessage + " - expected not null or undefined value was " + val);
         }
     };
+    TestNumber.notUndefined = function (failMessage, val) {
+        if (val === undefined) {
+            fail(failMessage + " - expected not undefined value was " + val);
+        }
+    };
+    TestNumber.notNull = function (failMessage, val) {
+        if (val === null) {
+            fail(failMessage + " - expected not null value was " + val);
+        }
+    };
     return TestNumber;
 }());
 exports.TestNumber = TestNumber;

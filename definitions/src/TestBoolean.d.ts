@@ -10,4 +10,6 @@ export declare class TestBoolean {
     static equalsTrue(failMessage: string, val: boolean): void;
     static equalsFalse(failMessage: string, val: boolean): void;
     static notNullOrUndefined(failMessage: string, val: boolean): void;
+    static notNull(failMessage: string, val: boolean): void;
+    static notUndefined(failMessage: string, val: boolean): void;
 }
