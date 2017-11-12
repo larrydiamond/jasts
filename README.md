@@ -23,9 +23,9 @@ And then you get back the helpful error message:
 This error message doesn't tell you which line brought back the wrong result.   
 Do I have a bug with the first call or the second call?
 
-# Gap 2: Type safety on tests.
+# Gap 2: Expect syntax is unusual
 
-Jasmine is written in JavaScript, not TypeScript.   And so Jasmine does some interesting manipulation to achieve some type safety on its calls.  We can do better in TypeScript since we can use the TypeScript compiler better to find errors in our tests at compile time.
+The **expect (something()).method(somethingElse())** syntax is criticized for being unusual (although it does open up a great deal of flexibility).
 
 # Solution: npm i jasts --save-dev
 ```javascript
