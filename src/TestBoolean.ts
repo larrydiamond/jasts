@@ -12,12 +12,12 @@ export class TestBoolean {
       fail (failMessage + " - value was " + val + " expected " + expected);
     }
   }
-  public static equalsTrue (failMessage:string, val:boolean) {
+  public static true (failMessage:string, val:boolean) {
     if (val !== true) {
       fail (failMessage + " - expected true value was " + val);
     }
   }
-  public static equalsFalse (failMessage:string, val:boolean) {
+  public static false (failMessage:string, val:boolean) {
     if (val !== false) {
       fail (failMessage + " - expected false value was " + val);
     }

@@ -15,12 +15,12 @@ var TestBoolean = /** @class */ (function () {
             fail(failMessage + " - value was " + val + " expected " + expected);
         }
     };
-    TestBoolean.equalsTrue = function (failMessage, val) {
+    TestBoolean.true = function (failMessage, val) {
         if (val !== true) {
             fail(failMessage + " - expected true value was " + val);
         }
     };
-    TestBoolean.equalsFalse = function (failMessage, val) {
+    TestBoolean.false = function (failMessage, val) {
         if (val !== false) {
             fail(failMessage + " - expected false value was " + val);
         }
