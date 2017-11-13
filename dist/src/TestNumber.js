@@ -52,6 +52,16 @@ var TestNumber = /** @class */ (function () {
             fail(failMessage + " - expected less than " + maximum + " value was " + val);
         }
     };
+    TestNumber.null = function (failMessage, val) {
+        if (val !== null) {
+            fail(failMessage + " - expected null value was " + val);
+        }
+    };
+    TestNumber.undefined = function (failMessage, val) {
+        if (val !== undefined) {
+            fail(failMessage + " - expected undefined value was " + val);
+        }
+    };
     return TestNumber;
 }());
 exports.TestNumber = TestNumber;

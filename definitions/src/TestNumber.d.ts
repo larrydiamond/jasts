@@ -12,4 +12,6 @@ export declare class TestNumber {
     static notNull(failMessage: string, val: number): void;
     static greaterThan(failMessage: string, val: number, minimum: number): void;
     static lessThan(failMessage: string, val: number, maximum: number): void;
+    static null(failMessage: string, val: number): void;
+    static undefined(failMessage: string, val: number): void;
 }

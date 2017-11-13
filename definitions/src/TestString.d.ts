@@ -10,4 +10,6 @@ export declare class TestString {
     static notNullOrUndefined(failMessage: string, val: string): void;
     static notNull(failMessage: string, val: string): void;
     static notUndefined(failMessage: string, val: string): void;
+    static null(failMessage: string, val: string): void;
+    static undefined(failMessage: string, val: string): void;
 }

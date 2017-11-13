@@ -27,4 +27,14 @@ export class TestString {
       fail (failMessage + " - expected not undefined value was " + val);
     }
   }
+  public static null (failMessage:string, val:string) : void {
+    if (val !== null) {
+      fail (failMessage + " - expected null value was " + val);
+    }
+  }
+  public static undefined (failMessage:string, val:string) : void {
+    if (val !== undefined) {
+      fail (failMessage + " - expected undefined value was " + val);
+    }
+  }
 }

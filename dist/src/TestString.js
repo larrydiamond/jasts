@@ -30,6 +30,16 @@ var TestString = /** @class */ (function () {
             fail(failMessage + " - expected not undefined value was " + val);
         }
     };
+    TestString.null = function (failMessage, val) {
+        if (val !== null) {
+            fail(failMessage + " - expected null value was " + val);
+        }
+    };
+    TestString.undefined = function (failMessage, val) {
+        if (val !== undefined) {
+            fail(failMessage + " - expected undefined value was " + val);
+        }
+    };
     return TestString;
 }());
 exports.TestString = TestString;

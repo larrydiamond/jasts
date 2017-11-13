@@ -49,4 +49,14 @@ export class TestNumber {
       fail (failMessage + " - expected less than " + maximum + " value was " + val);
     }
   }
+  public static null (failMessage:string, val:number) : void {
+    if (val !== null) {
+      fail (failMessage + " - expected null value was " + val);
+    }
+  }
+  public static undefined (failMessage:string, val:number) : void {
+    if (val !== undefined) {
+      fail (failMessage + " - expected undefined value was " + val);
+    }
+  }
 }
