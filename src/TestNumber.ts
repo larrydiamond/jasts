@@ -12,6 +12,11 @@ export class TestNumber {
       fail (failMessage + " - value was " + val + " expected " + expected);
     }
   }
+  public static notEquals (failMessage:string, val:number, expected:number) : void {
+    if (val === expected) {
+      fail (failMessage + " - value was " + val + " expected not to be " + expected);
+    }
+  }
   public static notNullOrUndefined (failMessage:string, val:number) : void {
     if ((val === null) || (val === undefined)) {
       fail (failMessage + " - expected not null or undefined value was " + val);

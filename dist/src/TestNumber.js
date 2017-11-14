@@ -15,6 +15,11 @@ var TestNumber = /** @class */ (function () {
             fail(failMessage + " - value was " + val + " expected " + expected);
         }
     };
+    TestNumber.notEquals = function (failMessage, val, expected) {
+        if (val === expected) {
+            fail(failMessage + " - value was " + val + " expected not to be " + expected);
+        }
+    };
     TestNumber.notNullOrUndefined = function (failMessage, val) {
         if ((val === null) || (val === undefined)) {
             fail(failMessage + " - expected not null or undefined value was " + val);
