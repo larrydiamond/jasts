@@ -193,32 +193,39 @@ Because you can provide text with each failure message, knowing exactly which st
 <table class="methods" border="0" cellpadding="3" cellspacing="0" summary="Class Summary table, listing classes, and an explanation">
   <tr>
     <th class="colFirst" scope="col">Test</th>
+    <th scope="col">&nbsp;</th>
     <th class="colLast" scope="col">&nbsp;</th>
   </tr>
   <tbody>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">equals</td>
+      <td>equals</td>
+      <td class="colLast">Test.equals ("Test failure message if these objects arent equal", dataToTest, stringItHasToEqual);</td>
     </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">notNullOrUndefined</td>
+      <td>null</td>
+      <td class="colLast">Test.null ("Test failure message if this object is not null", dataToTest);</td>
     </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">notNull</td>
+      <td>undefined</td>
+      <td class="colLast">Test.undefined ("Test failure message if this object is not undefined", dataToTest);</td>
     </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">notUndefined</td>
+      <td>notNull</td>
+      <td class="colLast">Test.notNull ("Test failure message if this object is null", dataToTest);</td>
     </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">null</td>
+      <td>notUndefined</td>
+      <td class="colLast">Test.notUndefined ("Test failure message if this object is undefined", dataToTest);</td>
     </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">undefined</td>
+      <td>notNullOrUndefined</td>
+      <td class="colLast">Test.notNullOrUndefined ("Test failure message if this object is null or undefined", dataToTest);</td>
     </tr>
   </tbody>
 </table>
