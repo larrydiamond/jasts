@@ -47,50 +47,41 @@ Because you can provide text with each failure message, knowing exactly which st
 
 <table class="methods" border="0" cellpadding="3" cellspacing="0" summary="Class Summary table, listing classes, and an explanation">
   <tr>
-    <th class="colFirst" scope="col">Test</th>
-    <th class="colLast" scope="col">&nbsp;</th>
-  </tr>
-  <tbody>
-    <tr class="altColor">
-      <td class="colFirst">&nbsp;</td>
-      <td class="colLast">First</td>
-    </tr>
-    <tr class="altColor">
-      <td class="colFirst">&nbsp;</td>
-      <td class="colLast">Second</td>
-    </tr>
-    <tr class="altColor">
-      <td class="colFirst">&nbsp;</td>
-      <td class="colLast">Third</td>
-    </tr>
-    <tr class="altColor">
-      <td class="colFirst">&nbsp;</td>
-      <td class="colLast">Fourth</td>
-    </tr>
-  </tbody>
-</table>
-
-<table class="methods" border="0" cellpadding="3" cellspacing="0" summary="Class Summary table, listing classes, and an explanation">
-  <tr>
     <th class="colFirst" scope="col">TestBoolean</th>
     <th class="colLast" scope="col">&nbsp;</th>
   </tr>
   <tbody>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">First</td>
+      <td class="colLast">equals</td>
     </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">Second</td>
+      <td class="colLast">true</td>
     </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">Third</td>
+      <td class="colLast">false</td>
     </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">Fourth</td>
+      <td class="colLast">notNullOrUndefined</td>
+    </tr>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">notNull</td>
+    </tr>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">notUndefined</td>
+    </tr>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">null</td>
+    </tr>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">undefined</td>
     </tr>
   </tbody>
 </table>
@@ -103,19 +94,39 @@ Because you can provide text with each failure message, knowing exactly which st
   <tbody>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">First</td>
+      <td class="colLast">equals</td>
     </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">Second</td>
+      <td class="colLast">notEquals</td>
     </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">Third</td>
+      <td class="colLast">notNullOrUndefined</td>
     </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">Fourth</td>
+      <td class="colLast">notUndefined</td>
+    </tr>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">notNull</td>
+    </tr>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">undefined</td>
+    </tr>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">null</td>
+    </tr>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">greaterThan</td>
+    </tr>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">lessThan</td>
     </tr>
   </tbody>
 </table>
@@ -128,19 +139,60 @@ Because you can provide text with each failure message, knowing exactly which st
   <tbody>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">First</td>
+      <td class="colLast">equals</td>
     </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">Second</td>
+      <td class="colLast">notNullOrUndefined</td>
     </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">Third</td>
+      <td class="colLast">notNull</td>
     </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">Fourth</td>
+      <td class="colLast">notUndefined</td>
+    </tr>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">null</td>
+    </tr>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">undefined</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="methods" border="0" cellpadding="3" cellspacing="0" summary="Class Summary table, listing classes, and an explanation">
+  <tr>
+    <th class="colFirst" scope="col">Test</th>
+    <th class="colLast" scope="col">&nbsp;</th>
+  </tr>
+  <tbody>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">equals</td>
+    </tr>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">notNullOrUndefined</td>
+    </tr>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">notNull</td>
+    </tr>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">notUndefined</td>
+    </tr>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">null</td>
+    </tr>
+    <tr class="altColor">
+      <td class="colFirst">&nbsp;</td>
+      <td class="colLast">undefined</td>
     </tr>
   </tbody>
 </table>
