@@ -48,6 +48,7 @@ Because you can provide text with each failure message, knowing exactly which st
 <table class="methods" border="0" cellpadding="3" cellspacing="0" summary="Class Summary table, listing classes, and an explanation">
   <tr>
     <th class="colFirst" scope="col">TestBoolean</th>
+    <th scope="col">&nbsp;</th>
     <th class="colLast" scope="col">&nbsp;</th>
   </tr>
   <tbody>
@@ -97,44 +98,54 @@ Because you can provide text with each failure message, knowing exactly which st
 <table class="methods" border="0" cellpadding="3" cellspacing="0" summary="Class Summary table, listing classes, and an explanation">
   <tr>
     <th class="colFirst" scope="col">TestNumber</th>
+    <th scope="col">&nbsp;</th>
     <th class="colLast" scope="col">&nbsp;</th>
   </tr>
   <tbody>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">equals</td>
+      <td>equals</td>
+      <td class="colLast">TestNumber.equals ("Text to display if this test fails", dataToTest, numberItHasToEqual);</td>
     </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">notEquals</td>
+      <td>greaterThan</td>
+      <td class="colLast">TestNumber.greaterThan ("Text to display if this test fails", dataToTest, numberItHasToBeGreaterThan);</td>
     </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">notNullOrUndefined</td>
+      <td>lessThan</td>
+      <td class="colLast">TestNumber.lessThan ("Text to display if this test fails", dataToTest, numberItHasToBeLessThan);</td>
     </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">notUndefined</td>
+      <td>undefined</td>
+      <td class="colLast">TestNumber.undefined ("Text to display if this test fails", dataToTest);</td>
     </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">notNull</td>
+      <td>null</td>
+      <td class="colLast">TestNumber.null ("Text to display if this test fails", dataToTest);</td>
     </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">undefined</td>
+      <td>notEquals</td>
+      <td class="colLast">TestNumber.notEquals ("Text to display if this test fails", dataToTest, numberItHasToEqual);</td>
     </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">null</td>
+      <td>notNullOrUndefined</td>
+      <td class="colLast">TestNumber.notNullOrUndefined ("Text to display if this test fails", dataToTest);</td>
     </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">greaterThan</td>
+      <td>notUndefined</td>
+      <td class="colLast">TestNumber.notUndefined ("Text to display if this test fails", dataToTest);</td>
     </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">lessThan</td>
+      <td>notNull</td>
+      <td class="colLast">TestNumber.notNull ("Text to display if this test fails", dataToTest);</td>
     </tr>
   </tbody>
 </table>
