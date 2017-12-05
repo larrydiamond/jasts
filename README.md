@@ -51,37 +51,45 @@ Because you can provide text with each failure message, knowing exactly which st
     <th class="colLast" scope="col">&nbsp;</th>
   </tr>
   <tbody>
+  <tr class="altColor">
+    <td class="colFirst">&nbsp;</td>
+    <td>true</td>
+    <td class="colLast">TestBoolean.true ("Text to display if this test fails", dataToTest);</td>
+  </tr>
+  <tr class="altColor">
+    <td class="colFirst">&nbsp;</td>
+    <td>false</td>
+    <td class="colLast">TestBoolean.false ("Text to display if this test fails", dataToTest);</td>
+  </tr>
+  <tr class="altColor">
+    <td class="colFirst">&nbsp;</td>
+    <td>null</td>
+    <td class="colLast">TestBoolean.null ("Text to display if this test fails", dataToTest);</td>
+  </tr>
+  <tr class="altColor">
+    <td class="colFirst">&nbsp;</td>
+    <td>undefined</td>
+    <td class="colLast">TestBoolean.undefined ("Text to display if this test fails", dataToTest);</td>
+  </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">equals</td>
+      <td>equals</td>
+      <td class="colLast">TestBoolean.equals ("Text to display if this test fails", dataToTest, dataToTestAgainst);</td>
     </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">true</td>
+      <td>notNull</td>
+      <td class="colLast">TestBoolean.notNull ("Text to display if this test fails", dataToTest);</td>
     </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">false</td>
+      <td>notUndefined</td>
+      <td class="colLast">TestBoolean.notUndefined ("Text to display if this test fails", dataToTest);</td>
     </tr>
     <tr class="altColor">
       <td class="colFirst">&nbsp;</td>
-      <td class="colLast">notNullOrUndefined</td>
-    </tr>
-    <tr class="altColor">
-      <td class="colFirst">&nbsp;</td>
-      <td class="colLast">notNull</td>
-    </tr>
-    <tr class="altColor">
-      <td class="colFirst">&nbsp;</td>
-      <td class="colLast">notUndefined</td>
-    </tr>
-    <tr class="altColor">
-      <td class="colFirst">&nbsp;</td>
-      <td class="colLast">null</td>
-    </tr>
-    <tr class="altColor">
-      <td class="colFirst">&nbsp;</td>
-      <td class="colLast">undefined</td>
+      <td>notNullOrUndefined</td>
+      <td class="colLast">TestBoolean.notNullOrUndefined ("Text to display if this test fails", dataToTest);</td>
     </tr>
   </tbody>
 </table>
