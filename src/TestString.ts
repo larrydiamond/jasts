@@ -10,31 +10,37 @@ export class TestString {
   public static equals (failMessage:string, val:string, expected:string) : void {
     if (val !== expected) {
       fail (failMessage + " - value was " + val + " expected " + expected);
+      throw new Error (failMessage + " - value was " + val + " expected " + expected);
     }
   }
   public static notNullOrUndefined (failMessage:string, val:string) : void {
     if ((val === null) || (val === undefined)) {
       fail (failMessage + " - expected not null or undefined value was " + val);
+      throw new Error (failMessage + " - expected not null or undefined value was " + val);
     }
   }
   public static notNull (failMessage:string, val:string) : void {
     if (val === null) {
       fail (failMessage + " - expected not null value was " + val);
+      throw new Error (failMessage + " - expected not null value was " + val);
     }
   }
   public static notUndefined (failMessage:string, val:string) : void {
     if (val === undefined) {
       fail (failMessage + " - expected not undefined value was " + val);
+      throw new Error (failMessage + " - expected not undefined value was " + val);
     }
   }
   public static null (failMessage:string, val:string) : void {
     if (val !== null) {
       fail (failMessage + " - expected null value was " + val);
+      throw new Error (failMessage + " - expected null value was " + val);
     }
   }
   public static undefined (failMessage:string, val:string) : void {
     if (val !== undefined) {
       fail (failMessage + " - expected undefined value was " + val);
+      throw new Error (failMessage + " - expected undefined value was " + val);
     }
   }
 }

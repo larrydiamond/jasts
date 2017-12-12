@@ -13,31 +13,37 @@ var TestString = /** @class */ (function () {
     TestString.equals = function (failMessage, val, expected) {
         if (val !== expected) {
             fail(failMessage + " - value was " + val + " expected " + expected);
+            throw new Error(failMessage + " - value was " + val + " expected " + expected);
         }
     };
     TestString.notNullOrUndefined = function (failMessage, val) {
         if ((val === null) || (val === undefined)) {
             fail(failMessage + " - expected not null or undefined value was " + val);
+            throw new Error(failMessage + " - expected not null or undefined value was " + val);
         }
     };
     TestString.notNull = function (failMessage, val) {
         if (val === null) {
             fail(failMessage + " - expected not null value was " + val);
+            throw new Error(failMessage + " - expected not null value was " + val);
         }
     };
     TestString.notUndefined = function (failMessage, val) {
         if (val === undefined) {
             fail(failMessage + " - expected not undefined value was " + val);
+            throw new Error(failMessage + " - expected not undefined value was " + val);
         }
     };
     TestString.null = function (failMessage, val) {
         if (val !== null) {
             fail(failMessage + " - expected null value was " + val);
+            throw new Error(failMessage + " - expected null value was " + val);
         }
     };
     TestString.undefined = function (failMessage, val) {
         if (val !== undefined) {
             fail(failMessage + " - expected undefined value was " + val);
+            throw new Error(failMessage + " - expected undefined value was " + val);
         }
     };
     return TestString;

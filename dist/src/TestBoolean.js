@@ -13,41 +13,49 @@ var TestBoolean = /** @class */ (function () {
     TestBoolean.equals = function (failMessage, val, expected) {
         if (val !== expected) {
             fail(failMessage + " - value was " + val + " expected " + expected);
+            throw new Error(failMessage + " - value was " + val + " expected " + expected);
         }
     };
     TestBoolean.true = function (failMessage, val) {
         if (val !== true) {
             fail(failMessage + " - expected true value was " + val);
+            throw new Error(failMessage + " - expected true value was " + val);
         }
     };
     TestBoolean.false = function (failMessage, val) {
         if (val !== false) {
             fail(failMessage + " - expected false value was " + val);
+            throw new Error(failMessage + " - expected false value was " + val);
         }
     };
     TestBoolean.notNullOrUndefined = function (failMessage, val) {
         if ((val === null) || (val === undefined)) {
             fail(failMessage + " - expected not null or undefined value was " + val);
+            throw new Error(failMessage + " - expected not null or undefined value was " + val);
         }
     };
     TestBoolean.notNull = function (failMessage, val) {
         if (val === null) {
             fail(failMessage + " - expected not null value was " + val);
+            throw new Error(failMessage + " - expected not null value was " + val);
         }
     };
     TestBoolean.notUndefined = function (failMessage, val) {
         if (val === undefined) {
             fail(failMessage + " - expected not undefined value was " + val);
+            throw new Error(failMessage + " - expected not undefined value was " + val);
         }
     };
     TestBoolean.null = function (failMessage, val) {
         if (val !== null) {
             fail(failMessage + " - expected null value was " + val);
+            throw new Error(failMessage + " - expected null value was " + val);
         }
     };
     TestBoolean.undefined = function (failMessage, val) {
         if (val !== undefined) {
             fail(failMessage + " - expected undefined value was " + val);
+            throw new Error(failMessage + " - expected undefined value was " + val);
         }
     };
     return TestBoolean;
