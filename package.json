@@ -8,7 +8,7 @@
   "engineStrict": true,
   "dependencines": {},
   "devDependencies": {
-    "@types/jasmine": "^2.6.3",
+    "@types/jasmine": "^3.6.1",
     "@types/node": "^8.0.49",
     "gulp": "^3.9.1",
     "gulp-jasmine": "^2.4.2",
